@@ -38,7 +38,7 @@ function wceu2019bloq_editor_assets() {
 	wp_enqueue_script(
 		'wceu2019bloq-script',
 		plugins_url( 'build/main.build.js', __FILE__ ),
-		array( 'wp-blocks', 'wp-i18n', 'wp-element' )
+		array( 'wp-blocks', 'wp-i18n', 'wp-element', 'wp-editor' )
 	);
 }
 
